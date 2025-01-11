@@ -248,4 +248,52 @@ nav li a{
   color: #ffffff;
   border-radius: 10px;
 }
+/* promise-style  */
+#promise{
+    margin: 30px 160px; 
+    text-align: center;
+    padding: 60px;
+    background-color: #c6e4d6;
+    border-radius: 15px;
+  }
+.promise-container{
+  
+}
+.promise-container h1{
+  font-size: 40px;
+  font-family: fira sans;
+  font-weight: bold;
+  padding-bottom: 10px;
+  
+}
+.promise-container p{
+  font-size: 16px;
+  font-family: fira sans;
+  font-weight: 400;
+  padding: 10px 0;
+  opacity: .8;
+}
+.promise-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+input[type="email"] {
+    padding: 20px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    width: 600px;
+}
+.promise-content .promise-btn{
+  padding: 20px 20px;
+  font-size: 10px;
+  background-color: #006d4d; /* Dark green */
+  color: #fff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+}
+
 
