@@ -110,4 +110,87 @@ nav li a{
 .pillars-content p{
   font-size: 20px;
 }
+/* future-style */
+#future{
+    margin: 80px 160px;
+}
+.future-container h1{
+  font-size: 41px;
+  font-family: fira sans;
+  font-weight: bold;
+
+}
+.future-container p{
+  font-size: 15px;
+  font-weight: 400;
+  font-family: fira sans;
+  padding: 25px 0;
+  line-height: 22px;
+}
+.future-description{
+  display: flex;
+  padding-top: 10px;
+  gap: 20px;
+
+}
+.future-content-1{
+  padding: 38px;
+  border-radius: 15px;
+  background-color: #a6c4f5;
+}
+.future-content-1 img ,.future-content-2 img ,.future-content-3 img {
+  padding-bottom: 15px;
+}
+.future-content-1 h3,.future-content-2 h3 ,.future-content-3 h3{
+      font-size: 20px;
+      font-weight: bold;
+      font-family: fira sans;  
+}
+.future-content-1 p ,.future-content-2 p , .future-content-3 p {
+   font-size: 15px;
+   font-weight: 400;
+   font-family: fira sans;
+   margin-top: -15px;
+}
+.future-content-1 .future-button{
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: fira sans;
+    background-color: #5490f5;
+    border-style: none;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.future-content-2 .future-button{
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: fira sans;
+  background-color: #09a15c;
+  border-style: none;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.future-content-3 .future-button{
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: fira sans;
+  background-color: #ffc239;
+  border-style: none;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.future-content-2{
+  padding: 38px;
+  border-radius: 15px;
+  background-color: #c6e4d6;
+}
+.future-content-3{
+  padding: 38px;
+  border-radius: 15px;
+  background-color: #f7ebcf;
+}
 
