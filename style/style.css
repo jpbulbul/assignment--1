@@ -3,34 +3,78 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
 }
-.btn-primary{
-    color: #006a50;
-    padding: 12.75px 25.3px;
-    font-size: 15.3px;
-    font-weight: 500;
-    font-family: fire sans;
-    border-color: 1px solid #006a50;
-    border-radius: 10px;
+.btn{
+   color: #006a50;
+   padding: 15px 38px;
+   font-size: 18px;
+   border-radius: 15px;
+   border-color:#006a50;
+   border-style:1px solid;
+   font-family: fira  ;
 }
-/* header */
+.color-1{
+  color: #6a7972;
+}
+/* nav-style */
 nav{
-    margin: 0 160px;
-    padding: 15px 0;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   margin: 0 160px;
 }
-nav ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav  ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav ul li{
-    list-style: none;
+nav li{
+   list-style: none;
+   font-size: 27px;
+   font-family: fira sans;
+   font-weight: bold;
 }
-.li-a-itme{
-    text-decoration: none;
-    font-size: 27.3px;
+nav li a{
+  
+}
+/* *banner-style* */
+.banner-hero{
+  /* background-color: #c6e4d6; */
+}
+.banner{
+  margin: 15px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c6e4d6;
+  border-radius: 15px;
+  padding: 60px;
+  height: 500px;
+
+}
+.banner img {
+  /* background-color: #c6e4d6; */
+}
+.banner-item h4{
+  font-size: 20.4px;
+  font-weight: 500;
+  font-family: fira sans;
+  
+}
+.banner-item p{
+  font-size: 47.6px;
+  font-weight: bold;
+  font-family: fira sans;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.banner-btn{
+    background-color: #006a50;
+    padding: 14.45px 28.9px;
+    border-style:none ;
+    border-radius: 10px;
+    font-size:15.3px ;
+    color: white;
     font-family: fira sans;
-    font-weight: bold;
-    color: #171717;
 }
+
