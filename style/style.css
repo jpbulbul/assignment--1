@@ -218,6 +218,18 @@ nav li a{
 .icon-item p{
   font-size: 20px;
 }
+/* table-style */
+#table-info{
+  margin: 30px 160px; 
+}
+.table{
+  text-align: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
 /* news-style */
 #news{
   margin: 50px 160px; 
@@ -397,6 +409,14 @@ input[type="email"] {
   font-family: fira sans;
   padding-top: 22px;
 
+}
+/* Footer-item */
+#footer-item{
+   margin: 80px 160px;
+   text-align: center;
+}
+.icon-icon{
+  margin-top: 40px;
 }
 
 
