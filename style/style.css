@@ -281,19 +281,27 @@ nav li a{
 }
 input[type="email"] {
     padding: 20px;
-    font-size: 10px;
+    font-size: 15px;
     border: 1px solid #ccc;
     border-radius: 4px 0 0 4px;
     outline: none;
     width: 600px;
+
 }
 .promise-content .promise-btn{
   padding: 20px 20px;
-  font-size: 10px;
+  font-size: 15px;
   background-color: #006d4d; /* Dark green */
   color: #fff;
   border: none;
   border-radius: 0 4px 4px 0;
+}
+.promise-container h4{
+  font-size: 15px;
+  font-weight: 400;
+  font-family: fira sans;
+  padding-top: 22px;
+
 }
 
 
