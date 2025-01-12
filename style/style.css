@@ -278,6 +278,7 @@ nav li a{
 }
 .donate-items li{
   list-style: none;
+  text-decoration: none;
   font-size: 30px;
   font-family: fira sans;
   font-weight: bold;
