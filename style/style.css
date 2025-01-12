@@ -410,10 +410,13 @@ input[type="email"] {
   padding-top: 22px;
 
 }
-/* Footer-item */
+/* footer-item */
+.icon-icon{
+  margin-top: 40px;
+}
 #footer-item{
-   margin: 80px 160px;
-   text-align: center;
+  margin: 80px 160px;
+  text-align: center;
 }
 .icon-icon{
   margin-top: 40px;
